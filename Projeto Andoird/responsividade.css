@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+body{
+    background-color: grey;
+}
+
+main{
+    background-color:white;
+    border-radius: 10px;
+    padding-inline-start: 10px;
+
+    max-width: 810px;
+    min-width: 320px;
+    
+    margin: auto;
+}
+
+img{
+    width: 100%;
+}
