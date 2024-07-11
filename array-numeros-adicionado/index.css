@@ -1,0 +1,47 @@
+@charset 'UTF-8';
+
+body{
+    background-color: #589A8D;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+.container{
+    background-color: #146551;
+    color: white;
+    height: 330px;
+    width: 600px;
+    padding: 20px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+#botao{
+    display: block;
+    margin-top: 20px;
+    margin: auto;
+}
+
+#divNumero{
+    text-align: center;
+}
+
+select{
+    display: block;
+    width: 200px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+#res{
+    text-align: center;
+    font-weight: justify;
+}
+
+
