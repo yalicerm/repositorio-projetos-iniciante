@@ -1,0 +1,69 @@
+@charset '  UTF-8';
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body{
+    min-height: 100vh;
+    background-color: darkgray;
+}
+
+header, footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header > h1{
+    padding-top: 50px;
+}
+
+header > p {
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+a{
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+    background-color: rgb(160, 156, 156);
+    transition: 1s;
+}
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+
+.semFoto{
+
+}
+
+.comFoto{
+    background-color: rgb(56, 55, 55);
+    color: white;
+}
+
+.comFoto > p{
+    background-color: rgb(48, 48, 48);
+    width: 400px;
+    border: 10px;
+
+}
+
+footer > p{
+    padding: 15px;
+}
+
