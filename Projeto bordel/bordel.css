@@ -37,6 +37,7 @@ header > h1{
 header > p {
     padding-top: 10px;
     padding-bottom: 50px;
+    font-size: 1.5vh;
 }
 
 a{
@@ -64,19 +65,36 @@ section{
     font-size: 2vh;
 }
 
-
+section > p{
+    padding-bottom: 1em;
+}
 
 .comFoto{
-    background-color: rgb(56, 55, 55);
+    background-color: rgba(51, 51, 51, 0.712);
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.349);
+    background-attachment: fixed;
 }
 
 .comFoto > p{
-    background-color: rgb(48, 48, 48);
+    background-color: rgba(29, 28, 28, 0.411);
     display: inline-block;
     border-radius: 10px;
     padding: 10px;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.548);
 
+}
+
+section#img1{
+    background-image: url('imagens/background001.jpg');
+    background-position: right center;
+    background-size: cover; 
+}
+
+section#img2{
+    background-image: url('imagens/background002.jpg');
+    background-position: center bottom;
+    background-size: cover;
 }
 
 footer > p{
