@@ -35,6 +35,11 @@ main{
     background-repeat: no-repeat;
 }
 
+::-webkit-scrollbar{
+    width: 0px;
+    height: 0px;
+}
+
 #tela1{
     position: relative;
     top:80px;
