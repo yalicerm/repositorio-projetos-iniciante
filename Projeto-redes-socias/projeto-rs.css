@@ -34,3 +34,11 @@ main{
     background-image: url(./pacote-d013/imagens/frame-iphone.png);
     background-repeat: no-repeat;
 }
+
+#tela1{
+    position: relative;
+    top:80px;
+    left:22px;
+    height: 470px;
+    width: 268px;
+}
